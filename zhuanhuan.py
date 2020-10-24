@@ -11,6 +11,7 @@ from moviepy.editor import *		# 视频处理模块
 p = Path('/Users/shiying/Documents/课堂外的读本/乡风市声')
 # p指向存放mp4视频的文件夹
 
+
 q = p.joinpath('mp3')
 q.mkdir(mode=0o777, exist_ok=True)
 # 在存放mp4视频的文件夹下建立一个叫做mp3的文件夹，赋予全部权限
